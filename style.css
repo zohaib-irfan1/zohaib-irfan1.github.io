@@ -423,4 +423,14 @@ footer {
 
 
 
+/* Keep content above spiders */
+header, nav, main, footer {
+  position: relative;
+  z-index: 5;
+}
 
+/* Spiders behind content */
+.bug {
+  z-index: 1 !important;
+  pointer-events: none;
+}
