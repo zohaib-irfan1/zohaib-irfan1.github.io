@@ -82,7 +82,7 @@ nav {
 
 /* ── Main / Sections ──────────────────────────────── */
 main {
-  max-width: 860px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0 24px 60px;
 }
@@ -355,8 +355,9 @@ main {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
+  /* This forces exactly 4 equal columns */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
 }
 
 .contact-box {
@@ -366,10 +367,11 @@ main {
   text-align: center;
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 24px 16px;
+  padding: 30px 20px; /* Increased padding for the original look */
   text-decoration: none;
   color: var(--text);
   transition: box-shadow .18s, border-color .18s;
+  background: var(--surface);
 }
 
 .contact-box:hover {
