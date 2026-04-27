@@ -104,7 +104,7 @@ main {
 .profile-card {
   display: flex;
   gap: 40px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .profile-photo-wrap {
@@ -142,6 +142,7 @@ main {
   font-weight: 800;
   margin-bottom: 14px;
   line-height: 1.2;
+  justify-content: center;
 }
 
 .bio {
