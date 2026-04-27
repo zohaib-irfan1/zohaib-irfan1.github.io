@@ -357,7 +357,7 @@ main {
   display: grid;
   /* This forces exactly 4 equal columns */
   grid-template-columns: repeat(4, 1fr); 
-  gap: 20px;
+  gap: 15px;
 }
 
 .contact-box {
@@ -367,7 +367,7 @@ main {
   text-align: center;
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 30px 20px; /* Increased padding for the original look */
+  padding: 24px 12px; /* Increased padding for the original look */
   text-decoration: none;
   color: var(--text);
   transition: box-shadow .18s, border-color .18s;
